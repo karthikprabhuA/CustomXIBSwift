@@ -26,7 +26,7 @@ class SecondViewController: UIViewController {
 
         self.customView =  SimpleCustomView(frame: CGRectMake(100, 100, 200, 200))
         self.view.addSubview(self.customView!);
-        self.customView.lblTitleText = "I am doing good";
+        self.customView.lblTitleText = "I am a customview loaded dynamically";
      
     }
    

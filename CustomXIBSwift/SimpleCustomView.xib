@@ -7,16 +7,16 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SimpleCustomView" customModule="CustomXIBSwift" customModuleProvider="target">
             <connections>
-                <outlet property="lblTitle" destination="BRw-IC-wyp" id="PjD-8T-PJL"/>
+                <outlet property="lblTitle" destination="acP-aO-PC3" id="yql-RW-P7n"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB">
-            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <rect key="frame" x="0.0" y="0.0" width="260" height="120"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BRw-IC-wyp">
-                    <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="acP-aO-PC3">
+                    <rect key="frame" x="8" y="14" width="244" height="42"/>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -25,35 +25,13 @@
             </subviews>
             <color key="backgroundColor" red="0.84313732389999996" green="0.91372555489999996" blue="0.30196079609999998" alpha="1" colorSpace="deviceRGB"/>
             <constraints>
-                <constraint firstItem="BRw-IC-wyp" firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="trailingMargin" id="3sX-Ry-8JC"/>
-                <constraint firstItem="BRw-IC-wyp" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leadingMargin" id="PbT-Ok-3iK"/>
-                <constraint firstAttribute="bottom" secondItem="BRw-IC-wyp" secondAttribute="bottom" constant="77" id="SJE-U3-D0f"/>
-                <constraint firstItem="BRw-IC-wyp" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="topMargin" id="hxu-pG-KyF"/>
+                <constraint firstItem="acP-aO-PC3" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="14" id="9MR-M7-nKv"/>
+                <constraint firstAttribute="bottom" secondItem="acP-aO-PC3" secondAttribute="bottom" constant="64" id="P2R-IA-6dN"/>
+                <constraint firstItem="acP-aO-PC3" firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="trailingMargin" id="bDo-Ff-QYZ"/>
+                <constraint firstItem="acP-aO-PC3" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leadingMargin" id="baX-Fr-xHO"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <variation key="default">
-                <mask key="subviews">
-                    <exclude reference="BRw-IC-wyp"/>
-                </mask>
-                <mask key="constraints">
-                    <exclude reference="3sX-Ry-8JC"/>
-                    <exclude reference="PbT-Ok-3iK"/>
-                    <exclude reference="SJE-U3-D0f"/>
-                    <exclude reference="hxu-pG-KyF"/>
-                </mask>
-            </variation>
-            <variation key="heightClass=regular-widthClass=compact">
-                <mask key="subviews">
-                    <include reference="BRw-IC-wyp"/>
-                </mask>
-                <mask key="constraints">
-                    <include reference="3sX-Ry-8JC"/>
-                    <include reference="PbT-Ok-3iK"/>
-                    <include reference="SJE-U3-D0f"/>
-                    <include reference="hxu-pG-KyF"/>
-                </mask>
-            </variation>
-            <point key="canvasLocation" x="250" y="58"/>
+            <point key="canvasLocation" x="255" y="59"/>
         </view>
     </objects>
 </document>

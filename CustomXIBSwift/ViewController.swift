@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-   self.customView.lblTitle.text = "I am alive";
+   self.customView.lblTitle.text = "I am a custom view using xib!";
 
     }
 
